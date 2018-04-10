@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/product_all"
+
+            android:title="All Products" />
+        <item
+            android:id="@+id/product_top_10"
+            android:title="Top 10 Products" />
+        <item
+            android:id="@+id/last_one"
+
+            android:title="Last Chance" />
+        <item
+            android:id="@+id/out_of_stack"
+
+            android:title="Out of Stock" />
+        <item
+            android:id="@+id/price_L_H"
+
+            android:title="Price Low to High" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/recommend_by_price"
+
+                android:title="Recommend by Price " />
+        </menu>
+    </item>
+
+</menu>
